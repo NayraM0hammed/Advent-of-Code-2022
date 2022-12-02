@@ -6,4 +6,4 @@ Here, I introduce my source code for each day's challenges :owl:
 ***
 ## Notes :nerd_face: :
 
-In some of my codes, I use conditions in the form of **_(condition) ? expressionTrue : expressionFalse;_** that is called by [Short Hand if else](https://www.w3schools.com/cpp/cpp_conditions_shorthand.asp).
+In some of my codes, I use conditions in the form of **_(condition) ? expressionTrue : expressionFalse;_** We call it [Short Hand if else](https://www.w3schools.com/cpp/cpp_conditions_shorthand.asp).
