@@ -34,7 +34,7 @@ void Catch_Kadr_fe_ALOLo()
 
     while (cin >> s)
     {
-        map<int, bool> mp;
+        map<char, bool> mp;
         bool ok = 0;
         for (int i = 0; i < sz(s) && !ok; i++)
         {
