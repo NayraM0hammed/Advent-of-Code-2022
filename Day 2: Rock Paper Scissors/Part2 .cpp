@@ -14,7 +14,7 @@ void SADIEM()
 {
     freopen("input.txt", "r", stdin);
     //    freopen("output.txt", "w", stdout);
-
+    
     std::ios_base::sync_with_stdio(NULL);
     cin.tie(0);
     cout.tie(0);
