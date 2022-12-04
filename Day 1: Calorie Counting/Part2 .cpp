@@ -10,6 +10,7 @@
 typedef long long ll;
 using namespace std;
 
+
 void SADIEM()
 {
     freopen("input.txt", "r", stdin);
