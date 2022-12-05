@@ -1,4 +1,5 @@
-### As in AoC we focus on trying to reach correct output 
+### As in AoC we focus on trying to reach correct output rather than the actual code ...
+
 #### I converted a part of the input into suitable format to match my code as shown here :
 
 the input contains the stack's values as
@@ -12,4 +13,3 @@ Instead of that i converted it manually into
 
 So if u wanna try my code **"part1.cpp" "part2.cpp"**, u need to do same manual conversion in that part of input !! :nerd_face: 
 ***
-#### Feelling Guilty about the manual conversion :owl: , So i added an additional block of code for the same solution of part 1 (advance_part1.cpp) that handles this part of input directly.
