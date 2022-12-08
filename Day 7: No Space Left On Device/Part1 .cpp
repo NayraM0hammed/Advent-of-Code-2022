@@ -41,7 +41,7 @@ void Calc_Sz(vector<string> path)
     while (sz(path) > 1)
     {
         path.pop_back();
-        Sz[path] += val, vis.insert(path);
+        Sz[path] += val;
     }
 }
 
