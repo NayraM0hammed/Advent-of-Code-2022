@@ -44,7 +44,7 @@ void Catch_Kadr_fe_ALOLo()
         else
         {
             char from = 'a', to = 'a';
-            string x;0
+            string x;
             int tot = -1;
             stringstream ss(s);
 
