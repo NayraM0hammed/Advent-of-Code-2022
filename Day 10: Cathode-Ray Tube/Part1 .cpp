@@ -51,8 +51,9 @@ void SADIEM()
 
 void Catch_Kadr_fe_ALOLo()
 {
-    int ans = 0, curr_cycle = 1, tar = 20, x = 1, val;
+    int ans = 0, curr_cycle = 0, tar = 20, x = 1, val;
     string s;
+
     while (cin >> s)
     {
         curr_cycle++;
@@ -63,10 +64,14 @@ void Catch_Kadr_fe_ALOLo()
             ans += (x * tar), tar += 40;
 
         if (s == "addx")
-            curr_cycle++, x += val;
+        {
+            curr_cycle++;
 
-        if (curr_cycle == tar)
-            ans += (x * tar), tar += 40;
+            if (curr_cycle == tar)
+                ans += (x * tar), tar += 40;
+             
+            x += val;
+        }
     }
 
     cout << ans;
